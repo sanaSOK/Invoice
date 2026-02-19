@@ -1,0 +1,4 @@
+reportlab
+Pillow
+pyinstaller  # optional: for building .exe
+watchdog  # for automatic rebuild watcher
