@@ -153,7 +153,7 @@ class App:
 
         # Scrollbar for treeview
         scrollbar = ttk.Scrollbar(content, orient='vertical', command=self.products_tv.yview)
-        self.products_tv.configure(yscroll=scrollbar.set)
+        self.products_tv.configure(yscrollcommand=scrollbar.set)
 
     def _create_invoice_section(self, parent):
         """Create the invoice creation section"""
